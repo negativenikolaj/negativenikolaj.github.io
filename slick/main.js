@@ -1,10 +1,10 @@
 $(document).ready(function(){
   $('.slider').slick({
     dots: true,
-    speed: 300,
+    speed: 500,
     slidesToShow: 1,
     infinite: true,
     arrows: true,
-    slidesToScroll: 3
+    slidesToScroll: 1
   });
 });
